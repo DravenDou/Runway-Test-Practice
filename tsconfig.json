@@ -1,0 +1,25 @@
+{
+  "compilerOptions" : {
+    "experimentalDecorators": true,
+    "target": "ESNext",
+    "sourceMap" : true,
+    "declaration": true,
+    "module": "CommonJS",
+    "esModuleInterop": true,
+    "emitDecoratorMetadata": true,
+    "baseUrl": "../node_modules",
+    "moduleResolution": "Node"
+  },
+  "typeRoots": [
+    "node_modules/@types"
+  ],
+  "types": [
+    "mocha",
+    "cypress",
+    "node",
+    "chai",
+  ],
+  "paths" : {"cypress/*": ["cypress/*"]}
+
+
+}
